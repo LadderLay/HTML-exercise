@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task5</title>
+    <style>
+        .tan{
+            background-color: #ccc;
+            width:500px;
+            height:300px;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%); 
+        }
+        .left,.right{
+            width:100px;
+            height:100px;
+            background-color: #fc0;
+        }
+        .left{
+            border-radius:0px 0px 100px 0px;
+        }
+        .right{
+            border-radius:100px 0px 0px 0px;
+            position:absolute;
+            right:0;
+            bottom:0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="tan">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
