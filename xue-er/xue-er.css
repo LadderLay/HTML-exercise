@@ -4,7 +4,11 @@
     background-color: #F4F4F4;
     width: 100%;
     height: 100%;
-    position:absolute; left:0; top:0; right:0; bottom:0;
+    position:absolute; 
+    left:0; 
+    top:0; 
+    right:0; 
+    bottom:0;
 }
 .header{
     height: 80px;
@@ -87,7 +91,7 @@
     width: 96px;
     height: 96px;
     border: 2px solid #1DC091;
-    border-radius: 50px;
+    border-radius: 48px;
     margin-top: 40px;
     float:left;
     text-align:center;
@@ -100,6 +104,24 @@
 }
 .cir2,.cir3,.cir4{
     margin-left: 126px;
+}
+.c1,.c2,.c3,.c4{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #1DC091;
+    border-radius: 50%;
+    margin-top: 10px;
+    float:left;
+    color:#1DC091;
+    text-align:center;
+    font-size: 30px;
+    line-height: 25px;
+}
+.c1{
+    margin-left: 155px;
+}
+.c2,.c3,.c4{
+    margin-left: 197px;
 }
 .text1,.text2,.text3,.text4{
     margin-top: 40px;
@@ -263,9 +285,15 @@
     width:100%;
     height: 120px;
     background-color: rgba(51,51,51,1);
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
+}
+.grey{
+    width:300px;
+    height:2px;
+    border:2px solid #9B9B9B;
+    background-color: #9B9B9B;
+    float: left;
+    margin-left: 540px;
+    margin-top: 62px;
 }
 .muxi{
     width:143px;
@@ -274,7 +302,18 @@
     font-family:"PingFangSC-Light";
     letter-spacing:4px;
     color:#9B9B9B;
-    margin-top: 69px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 565px;
+}
+.pink{
+    width:3px;
+    height:10px;
+    background:#EA5A70;
+    border-radius:2px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 9px;
 }
 .ccnu{
     width:140px;
@@ -282,5 +321,7 @@
     font-size:14px;
     font-family:"PingFangSC-Light";
     color:#9B9B9B;
-    margin-top: 69px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 12px;
 }
