@@ -2,13 +2,17 @@
 
 .copy{
     background-color: #F4F4F4;
-    width: 100%;
-    height: 100%;
+    width:1440px;
+    height:1835px;
     position:absolute; 
     left:0; 
     top:0; 
     right:0; 
     bottom:0;
+}
+p{
+    margin:0;
+    padding:0；
 }
 .header{
     height: 80px;
@@ -17,17 +21,22 @@
 .a{
     width: 87px;
     height: 34px;
-    margin-left: 150px;
+    margin-left: 225px;
     margin-top: 23px;
     float:left;
 }
 .b{
     color:#F44336;
+    height: 54px;
     font-size:20px;
     font-family:"PingFangSC-Medium";
     margin-left: 56px;
-    margin-top: 26px;
+    padding-top: 26px;
     float:left;
+}
+.b:hover{
+    border-top: 2px solid #F44336;
+    padding-top: 0;
 }
 .c{
     color:#666666;
@@ -86,52 +95,46 @@
 .rect1{
     width: 1000px;
     height: 400px;
+    box-shadow:0px 2px 0px 0px rgba(234,234,234,1);
+    display: flex;
+    justify-content: center;
 }
-.cir1,.cir2,.cir3,.cir4{
+.cry{
+    width: 220px;
+    height: 400px;
+    margin-top: 40px;
+
+}
+.cir{
     width: 96px;
     height: 96px;
     border: 2px solid #1DC091;
     border-radius: 48px;
-    margin-top: 40px;
-    float:left;
     text-align:center;
     line-height: 96px;
     font-size: 36px;
     color:#1DC091;
-}
-.cir1{
-    margin-left: 120px;
-}
-.cir2,.cir3,.cir4{
-    margin-left: 126px;
+    margin: 0 auto;
 }
 .c1,.c2,.c3,.c4{
     width: 25px;
     height: 25px;
     border: 1px solid #1DC091;
     border-radius: 50%;
-    margin-top: 10px;
-    float:left;
+    margin-top: 20px;
     color:#1DC091;
     text-align:center;
-    font-size: 30px;
     line-height: 25px;
-}
-.c1{
-    margin-left: 155px;
-}
-.c2,.c3,.c4{
-    margin-left: 197px;
+    font-size: 28px;
+    margin: 0 auto;
 }
 .text1,.text2,.text3,.text4{
-    margin-top: 40px;
-    float:left;
-}
-.text1{
-    margin-left: 80px;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding-left: 30px;
 }
 .text2,.text3,.text4{
-    margin-left: 100px;
+    border-left: 1px solid #9B9B9B;
 }
 .li1{
     color:#F44336;
@@ -149,17 +152,20 @@
 .type1{
     color:#333333;
     font-size:14px;
+    line-height:20px;
     font-family:"PingFangSC-Light";
 }
 .type2{
     color:#333333;
     font-size:12px;
+    line-height:17px;
     font-family:"PingFangSC-Light";
 }
 .rect2{
     width: 1000px;
     height: 355px;
     margin-top: 10px;
+    box-shadow:0px 2px 0px 0px rgba(234,234,234,1);
 }
 .class1,.class2,.class3,.class4,.class5{
     width: 140px;
@@ -167,27 +173,33 @@
     border: 2px solid #1DC091;
     float:left;
     text-align:center;
+    box-sizing:border-box;
 }
 .class1{
     margin-left: 150px;
     margin-top: 21px;
     color:#6C6C6C;
+    padding-top: 31px;
 }
 .class2{
     margin-left: 44px;
     margin-top: 21px;
     color: #FFF;
     background-color: #1DC091;
+    padding-top: 20px;
 }
 .class3{
     margin-top: 21px;
     color:#6C6C6C;
+    padding-top: 31px;
 }
 .class4{
     margin-bottom: 52px;
+    padding-top: 31px;
 }
 .class5{
     margin-bottom: 52px;
+    padding-top: 31px;
 }
 .num1,.num2,.num3,.num4,.num5{
     height: 67px; 
@@ -224,15 +236,18 @@
     width: 1000px;
     height: 410px;
     margin-top:10px;
+    box-shadow:0px 2px 0px 0px rgba(234,234,234,1);
+    box-sizing:border-box;
 }
 .box1,.box2,.box3,.box4{
     width: 175px;
     height: 105px;
     text-align:center;
-    line-height: 25px;
-    float:left;
+    margin: 0 auto;
     margin-top: 63px;
-    margin-bottom: 160px;
+    padding-top: 30px;
+    float:left;
+    box-sizing:border-box;
 }
 .box1{
     margin-left: 127px;
@@ -240,10 +255,11 @@
 .box2,.box3,.box4{
     margin-left: 15px;
 }
-.box1,.box3,.box4{
-    background-color:#F77B72;
+.box1,.box2,.box3,.box4{
+    background:#F44336;
+    opacity: 0.7;
 }
-.box2{
+.box2:hover{
     background:#F44336;
 }    
 #rec1{
@@ -282,9 +298,11 @@
     background:#F44336;
 }
 .footer{
-    width:100%;
+    width: 100%;
     height: 120px;
     background-color: rgba(51,51,51,1);
+    box-shadow:0px -2px 0px 0px rgba(238,238,238,1);
+    margin-top: 100px;
 }
 .grey{
     width:300px;
@@ -292,7 +310,7 @@
     border:2px solid #9B9B9B;
     background-color: #9B9B9B;
     float: left;
-    margin-left: 540px;
+    margin-left: 570px;
     margin-top: 62px;
 }
 .muxi{

@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    background-color: #F4F4F4;
+}
+p{
+    margin:0;
+    padding:0；
+}
+a{ 
+    text-decoration:none; 
+    color:#333333; 
+    }
+.pointer{
+    cursor: pointer;
+}
+a:hover {
+    color:#F44336;
+}
+.homepage:hover {
+    border-top: 5px solid #F44336;
+}
+.check:hover {
+    border-top: 5px solid #666;
+}
+.button{
+    font-size: 14px;
+    width: 90px;
+    height: 30px;
+    line-height: 20px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    background-color: #1DC091;
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+/*头部*/
+.header{
+    height: 80px;
+    background-color: #FFF;
+    padding:0;
+}
+.center{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo-img img{
+    width:35px;
+    height:34px;
+}
+.xueer{
+    font-size: 26px;
+    color: #1DC091;
+}
+.homepage{
+    color:#F44336;
+    font-size:20px;
+    line-height: 75px;
+    margin-left: 56px;
+    border-top: 5px solid transparent;
+}
+.check{
+    color:#666;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 75px;
+    margin-left: 70px;
+    border-top: 5px solid transparent;
+}
+.searchbar{
+    width: 325px;
+    height: 30px;
+    font-size:0;
+    margin-left: 115px;
+}
+.search{
+    width: 225px;
+    height:24px;
+    border:2px solid #F44336;
+}
+.bar_span{
+    height: 30px;
+}
+.searchbar img{
+    width: 80px;
+    height:32px;
+}
+.head{
+    margin-left: 55px;
+}
+.head img{
+    width:40px;
+    height:40px;
+}
+.signout{
+    margin-left: 10px;
+}
+/*海报*/
+.banner{
+    width: 1000px;
+    height: 350px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/*课程目录*/
+.catalog{
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+.catalog_form{
+    width: 220px;
+    height: 400px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.cir_big{
+    width: 96px;
+    height: 96px;
+    border: 2px solid #1DC091;
+    border-radius: 48px;
+    text-align:center;
+    line-height: 96px;
+    font-size: 36px;
+    color:#1DC091;
+    margin: 0 auto;
+}
+.text1,.text2,.text3,.text4{
+    margin-top: 10px;
+    margin: 0 auto;
+    padding-left: 30px;
+    text-align: left;
+}
+.text2,.text3,.text4{
+    border-left: 1px solid #9B9B9B;
+}
+.class_type{
+    color:#333333;
+    font-size:14px;
+    line-height:20px;
+}
+.name_type{
+    color:#333333;
+    font-size:12px;
+    line-height:17px;
+}
+.cir_small{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #1DC091;
+    border-radius: 50%;
+    margin-top: 20px;
+    color:#1DC091;
+    text-align:center;
+    line-height: 25px;
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+/*课程动态*/
+.classtrend{
+    width: 1000px;
+    height: 355px;
+    border-top: 10px solid #F4F4F4;
+    padding-top: 30px;
+}
+.title{
+    font-size: 18px;
+    text-align:center;
+}
+.subtitle{
+    font-size: 12px;
+    color:#1DC091;
+    text-align:center;
+    margin-top: 0px;
+}
+.container{
+    width: 700px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.room{
+    padding-top: 20px;
+}
+.classbox{
+    width: 140px;
+    height: 105px;
+    border: 2px solid #1DC091;
+    text-align:center;
+    box-sizing:border-box;
+}
+.numbox{
+    width: 140px;
+    height: 105px;
+    border: 2px solid transparent;
+    text-align:center;
+    box-sizing:border-box;
+    font-size:48px;
+    line-height:67px;
+    text-decoration:underline;
+    color:#F44336;
+}
+.classbox:hover{
+    background: #1DC091;
+    color: #FFFFFF;
+}
+/*猜你喜欢*/
+.recommend{
+    width: 1000px;
+    height: 410px;
+    border-top: 10px solid #F4F4F4;
+    padding-top: 30px;
+    box-sizing:border-box;
+}
+.boxes{
+    text-align: center;
+    padding-top: 63px;
+}
+.box{
+    width: 175px;
+    height: 105px;
+    padding-top: 30px;
+    box-sizing:border-box;
+    background:#F44336;
+    opacity: 0.7;
+    display: inline-block;
+}
+.box:hover{
+    opacity: 1.0;
+}
+.book{
+    font-size:18px;
+    color:#FFF;
+}
+.teacher{
+    font-size:14px;
+    color:#FFF;
+}
+/*页脚*/
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(51,51,51,1);
+    margin-top: 100px;
+}
+.rabbit{
+    text-align: center;
+    padding-top: 20px;
+}
+.muxibox{
+    text-align: center;
+}
+.muxi{
+    font-size:14px;
+    letter-spacing:4px;
+    color:#9B9B9B;
+    display: inline-block;
+}
+.stdio{
+    font-size:14px;
+    letter-spacing:4px;
+    color:#9B9B9B;
+    display: inline-block;
+}
+.red{
+    color:#EA5A70;
+    display: inline-block;
+}
+.team{
+    width:140px;
+    height:20px;
+    font-size:14px;
+    color:#9B9B9B;
+    display: inline-block;
+}
