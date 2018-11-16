@@ -49,6 +49,7 @@ a:hover {
     height: 80px;
     background-color: #FFF;
     padding:0;
+    margin-bottom: 3px;
 }
 .center{
     width: 1000px;
@@ -114,9 +115,6 @@ a:hover {
     margin: 0 auto;
 }
 /*课程简介*/
-.marjor{
-    width: 1000px;
-}
 .description{
     width: 800px;
     height:238px;
@@ -292,9 +290,15 @@ a:hover {
     box-sizing: border-box;
     width: 800px;
     padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 75px;
+    padding-bottom: 70px;
     margin-top: 10px;
+}
+.textbox{
+    width: 616px;
+    margin-left: 20px;
+}
+.last{
+    padding-left: 75px;
 }
 textarea{
     width:608px;
@@ -312,6 +316,19 @@ textarea{
 .notice{
     font-size:14px;
     margin-bottom: 12px;
+}
+.button-bottom{
+    width: 100px;
+    font-size: 14px;
+    border: none;
+    color:#fff;
+    text-align: center;
+    padding: 5px 33px;
+    margin-top: 67px;
+    cursor: pointer;
+}
+.buttonbox{
+    text-align: center;
 }
 /*footer*/
 .footer{
