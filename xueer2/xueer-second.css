@@ -308,6 +308,7 @@ textarea{
 }
 .inputbox{
     width:608px;
+    height: 40px;
     font-size: 14px;
     margin-bottom: 30px;
     border:2px solid #CDCDCD;
