@@ -2,6 +2,9 @@ body{
     background-color: #F4F4F4;
     margin: 0;
 }
+a{ 
+    text-decoration:none; 
+}
 .inline-block{
     display: inline-block;
     vertical-align: middle;
@@ -22,10 +25,6 @@ li{
     background: #CDCDCD;
 }
 /*header*/
-a{
-    text-decoration:none; 
-    color:#333;   
-} 
 a:hover {
     color:#F44336;
 }
@@ -329,6 +328,20 @@ textarea{
 }
 .buttonbox{
     text-align: center;
+}
+.back{
+    width: 90px;
+    height: 90px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 23px 17px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 220px;
+    right: 200px;
 }
 /*footer*/
 .footer{
