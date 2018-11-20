@@ -115,6 +115,7 @@ a:hover {
 .main{
     width: 1000px;
     margin: 0 auto;
+    transform:translate(0,0);
 }
 /*课程简介*/
 .description{
@@ -141,9 +142,8 @@ a:hover {
 .classbox{
     width: 550px;
     padding-left: 30px;
-    margin-left: 30px;
+    margin: 40px 0 0 30px;
     border-left: 1px solid #EAEAEA;
-    margin-top: 40px;
     position:relative;
 }
 .first{
@@ -156,8 +156,7 @@ a:hover {
 }
 .third{
     width: 472px;
-    margin-left: 42px;
-    margin-bottom: 28px;
+    margin: 0 0 28px 42px;
     font-size:14px;
     color: #333;
 }
@@ -180,8 +179,7 @@ a:hover {
     font-size:14px;
     line-height: 24px;
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
 }
 .right{
     width: 190px;
@@ -211,25 +209,22 @@ a:hover {
 /*热门评论*/
 .hot-comment{
     width: 800px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 75px;
+    padding: 30px 0 50px 75px;
     border-top: 10px solid #F4F4F4;
     background-color: #FFF;
     box-sizing: border-box;
 }
 .title{
     padding-left: 11px;
+    margin-bottom: 20px;
     border-left: 5px solid #EA5A70;
     font-size:18px;
     color: #666;
-    margin-bottom: 20px;
 }
 .hotbox{
     width: 686px;
     border-bottom: 1px solid #EAEAEA;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 .head img{
     width: 60px;
@@ -267,31 +262,26 @@ a:hover {
 /*最新评论*/
 .recent-comment{
     width: 800px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 75px;
+    padding: 30px 0 50px 75px;
     border-top: 10px solid #F4F4F4;
     background-color: #FFF;
     box-sizing: border-box;
 }
 .page{
     text-align: right;
-    margin-right: 40px;
-    margin-top: 30px;
+    margin: 30px 40px 0 0;
 }
 .pagebox{
     padding: 6px 12px;
     font-size:12px;
-    color: #FFF; 
-    cursor: pointer;  
+    color: #FFF;   
 }
 /*写评论*/
 .review{
     background-color: #FFF;
     box-sizing: border-box;
     width: 800px;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    padding: 30px 0 70px 0;
     margin-top: 10px;
 }
 .textbox{
@@ -327,7 +317,6 @@ textarea{
     text-align: center;
     padding: 5px 33px;
     margin-top: 67px;
-    cursor: pointer;
 }
 .buttonbox{
     text-align: center;
@@ -343,8 +332,8 @@ textarea{
     padding: 23px 17px;
     position: fixed;
     cursor: pointer;
-    bottom: 220px;
-    right: 320px;
+    bottom: 0;
+    right: 100px;
 }
 /*footer*/
 .footer{
