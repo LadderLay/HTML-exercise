@@ -28,9 +28,6 @@ li{
     background: #CDCDCD;
 }
 /*header*/
-a:hover {
-    color:#F44336;
-}
 .homepage:hover {
     border-top: 5px solid #F44336;
 }
@@ -115,7 +112,6 @@ a:hover {
 .main{
     width: 1000px;
     margin: 0 auto;
-    transform:translate(0,0);
 }
 /*课程简介*/
 .description{
@@ -324,16 +320,18 @@ textarea{
 .back{
     width: 90px;
     height: 90px;
-    color: #FFF;
     font-size: 40px;
     text-align: center;
     vertical-align: middle;
     box-sizing: border-box;
     padding: 23px 17px;
     position: fixed;
-    cursor: pointer;
-    bottom: 0;
-    right: 100px;
+    transform: translateX(400px);
+    bottom: 220px;
+    right: 50%;
+}
+.back a{
+    color: #FFF;
 }
 /*footer*/
 .footer{

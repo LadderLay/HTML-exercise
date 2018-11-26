@@ -43,16 +43,19 @@ body{
     border-bottom: 8px solid RGBA(159, 195, 217, 1);
     vertical-align: middle;
 }
-.year::before{
-    content: "•";
+.year-before{
+    font-size: 16px;
     color: RGBA(245, 251, 220, 1);
+    margin-left: -7px;
 }
 .year{
-    margin:30px 0 10px -7px;
+    margin:30px 0 10px 2px;
+    border-bottom: 5px solid RGBA(159, 195, 217, 1);
 }
 .container{
-    display: flex;
-    flex-wrap: wrap;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 .profile{
     background-color: RGBA(56, 76, 85, 1);
@@ -60,6 +63,8 @@ body{
     max-width: 120px;
     width: 31%;
     box-sizing: border-box;
+    display: inline-block;
+    white-space: normal;
     padding: 5px;
     margin: 5px 0 0 3px;
 }
