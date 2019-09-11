@@ -4,13 +4,15 @@
     height: 400px;
     text-align:center;/*水平居中*/
 }
-.blue{
+.left{
     height: 200px;
+    width: 300px;
     background-color: royalblue;
     font-size: 32px;
 }
-.green{
+.right{
     height: 200px;
+    width: 300px;
     background-color: greenyellow;
     font-size: 32px;
     display: table;/*垂直居中*/
@@ -19,7 +21,7 @@
     display: table-cell; 
     vertical-align:middle; 
 }
-.blue:hover{/*考察鼠标移动改变透明度*/
+.left:hover{/*考察鼠标移动改变透明度*/
     opacity: 0.2;
 }
 h1{
@@ -29,13 +31,11 @@ h1{
 @keyframes slide {
     from {
       margin-left: 100%;
-      width: 100%;
       color: red; 
     }
   
     to {
       margin-left: 0%;
-      width: 100%;
       color: black;
     }
   }
